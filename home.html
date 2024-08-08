@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         body{
-            font-size: 50px;
+            font-size: 20px;
         }
         .slider .indicators .indicator-item.active {
             background-color: #e65100
@@ -43,6 +43,7 @@
                 <li><a href="#" class="white-text darken-4">Customers</a></li>
             </ul>
         </div>
+        <!-- Slider -->
         <div class="slider">
             <ul class="slides">
                 <li><img src="img/cake_fruit.jpg" alt=""></li>
@@ -57,7 +58,59 @@
     <main>
         <div class="container">
             <h3 class="orange-text text-darken-4">Hello there, foodies!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis maxime possimus cumque blanditiis dolor neque voluptatem laborum, labore excepturi quibusdam dignissimos reiciendis voluptate aperiam eligendi, corrupti recusandae odio quam ratione assumenda ut beatae. Labore qui atque ipsam pariatur aliquam ad illum dolorem, iusto aut! Quod impedit tempore ducimus nostrum. Labore ipsum, fugiat eos tenetur non, atque ad facere harum vel doloribus adipisci nisi fugit asperiores voluptatum quam deleniti similique itaque reiciendis at. Natus recusandae architecto fugiat molestias amet mollitia odio dicta tenetur perferendis iusto? Aspernatur consequatur temporibus autem nulla.</p>
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis maxime possimus cumque blanditiis dolor neque voluptatem laborum, labore excepturi quibusdam dignissimos reiciendis voluptate aperiam eligendi, corrupti recusandae odio quam ratione assumenda ut beatae. Labore qui atque ipsam pariatur aliquam ad illum dolorem, iusto aut! Quod impedit tempore ducimus nostrum. Labore ipsum, fugiat eos tenetur non, atque ad facere harum vel doloribus adipisci nisi fugit asperiores voluptatum quam deleniti similique itaque reiciendis at. Natus recusandae architecto fugiat molestias amet mollitia odio dicta tenetur perferendis iusto? Aspernatur consequatur temporibus autem nulla.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4">
+                                <a href="">
+                                    <i class="material-icons white-text">label</i>
+                                </a>
+                                <span class="white-text">Cakes</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="img/sponge_cake.webp" class="responsive-img" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum quasi deserunt officia temporibus tempore neque fugiat asperiores repellendus nesciunt?</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m6 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4">
+                                <a href="">
+                                    <i class="material-icons white-text">label</i>
+                                </a>
+                                <span class="white-text">Soups</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="img/mexican_soup.webp" class="responsive-img" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum quasi deserunt officia temporibus tempore neque fugiat asperiores repellendus nesciunt?</p>
+                            </div>
+                        </li>    
+                    </ul>
+                </div>
+                <div class="col s12 m6 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4">
+                                <a href="">
+                                    <i class="material-icons white-text">label</i>
+                                </a>
+                                <span class="white-text">Chickens</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="img/chicken_8.webp" class="responsive-img" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum quasi deserunt officia temporibus tempore neque fugiat asperiores repellendus nesciunt?</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -73,6 +126,7 @@
                 interval: 5000,
                 height: 500,
             });
+            $('.collapsible').collapsible();
         // })
     </script>
 </body>
