@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe.com</title>
+    <link rel="shortcut icon" href="img/rcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{
+            font-size: 18px;
+        }
+        .slider .indicators .indicator-item.active {
+            background-color: #e65100
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="container center-on-small-only">
+                    <img src="img/logo.png" alt="" class="responsive-img" style="max-width: 150px;">
+                    <a href="#sidenav" class="sidenav-trigger right">
+                        <i class="material-icons orange-text text-darken-4">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#" class="orange-text text-darken-4">Home</a></li>
+                        <li><a href="#cus" class="orange-text text-darken-4">Customers</a></li>
+                        <li><a href="#cakes" class="orange-text text-darken-4">Cakes</a></li>
+                        <li><a href="#soups" class="orange-text text-darken-4">Soups</a></li>
+                        <li><a href="#chic" class="orange-text text-darken-4">Chickens</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Slider -->
+        <div class="slider">
+            <ul class="slides">
+                <li><img src="img/cake_fruit.jpg" alt="" class="responsive-img"></li>
+                <li><img src="img/shrimp_soup.jpg" alt="" class="responsive-img"></li>
+                <li><img src="img/chicken_3.jpg" alt="" class="responsive-img"></li>
+                <li><img src="img/dessert_chocolate.jpg" alt="" class="responsive-img"></li>
+                <li><img src="img/ginger_cake.webp" alt="" class="responsive-img"></li>
+            </ul>
+        </div>
+    </header>
+    <!-- sidenav -->
+    <ul class="sidenav orange darken-4" id="sidenav">
+        <li><a href="#" class="white-text darken-4">Home</a></li>
+        <li><a href="#cus" class="white-text darken-4">Customers</a></li>
+        <li><a href="#cakes" class="white-text darken-4">Cakes</a></li>
+        <li><a href="#soups" class="white-text darken-4">Soups</a></li>
+        <li><a href="#chic" class="white-text darken-4">Chickens</a></li>
+    </ul>
+
+    <main>
+        <div class="container">
+            <h3 class="orange-text text-darken-4">Hello there, foodies!</h3>
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis maxime possimus cumque blanditiis dolor neque voluptatem laborum, labore excepturi quibusdam dignissimos reiciendis voluptate aperiam eligendi, corrupti recusandae odio quam ratione assumenda ut beatae. Labore qui atque ipsam pariatur aliquam ad illum dolorem, iusto aut! Quod impedit tempore ducimus nostrum. Labore ipsum, fugiat eos tenetur non, atque ad facere harum vel doloribus adipisci nisi fugit asperiores voluptatum quam deleniti similique itaque reiciendis at. Natus recusandae architecto fugiat molestias amet mollitia odio dicta tenetur perferendis iusto? Aspernatur consequatur temporibus autem nulla.</p>
+        </div>
+        <!-- collapsibles -->
+        <div class="container">
+            <div class="divider darken-4"></div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4">
+                                <a href="">
+                                    <i class="material-icons white-text">label</i>
+                                </a>
+                                <span class="white-text">Cakes</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="img/sponge_cake.webp" class="responsive-img" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum quasi deserunt officia temporibus tempore neque fugiat asperiores repellendus nesciunt?</p>
+                                <a href="" class="btn orange darken-4 z-depth-0">Order Cakes</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m6 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4">
+                                <a href="">
+                                    <i class="material-icons white-text">label</i>
+                                </a>
+                                <span class="white-text">Soups</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="img/mexican_soup.webp" class="responsive-img" alt="">
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum quasi deserunt officia temporibus tempore neque fugiat asperiores repellendus nesciunt?</p>
+                                <a href="" class="btn orange darken-4 z-depth-0">Order Soups</a>
+                            </div>
+                        </li>    
+                    </ul>
+                </div>
+                <div class="col s12 m6 l4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4">
+                                <a href="">
+                                    <i class="material-icons white-text">label</i>
+                                </a>
+                                <span class="white-text">Chickens</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <img src="img/chicken_8.webp" class="responsive-img" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum quasi deserunt officia temporibus tempore neque fugiat asperiores repellendus nesciunt?</p>
+                                <a href="" class="btn orange darken-4 z-depth-0">Order Chickens</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- collection -->
+        <div class="container">
+            <h3 class="orange-text text-darken-4 center-align" id="cus"> What Our Customers Say...</h3>
+            <div class="row">
+                <div class="col s12">
+                    <ul class="collection">
+                        <li class="collection-item">
+                            <a href="#" class="circle orange darken-4 avatar white-text">
+                                <i class="material-icons">person</i>
+                            </a>
+                            <span class="title">Jason</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reprehenderit? Ex praesentium provident, eaque odio aliquam quia illum et optio omnis magni velit dolorem ut facilis quasi?</p>
+                        </li>
+                        <li class="collection-item">
+                            <a href="#" class="orange circle darken-4 avatar white-text">
+                                <i class="material-icons">person</i>
+                            </a>
+                            <span class="title">Mike</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reprehenderit? Ex praesentium provident, eaque odio aliquam quia illum et optio omnis magni velit dolorem ut facilis quasi?</p>
+                        </li>
+                        <li class="collection-item">
+                            <a href="#" class="orange circle darken-4 avatar white-text">
+                                <i class="material-icons">person</i>
+                            </a>
+                            <span class="title">Brenden</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reprehenderit? Ex praesentium provident, eaque odio aliquam quia illum et optio omnis magni velit dolorem ut facilis quasi?</p>
+                        </li>
+                        <li class="collection-item">
+                            <a href="#" class="orange circle darken-4 avatar white-text">
+                                <i class="material-icons">person</i>
+                            </a>
+                            <span class="title">Noelle</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reprehenderit? Ex praesentium provident, eaque odio aliquam quia illum et optio omnis magni velit dolorem ut facilis quasi?</p>
+                        </li>
+                        <li class="collection-item">
+                            <a href="#" class="orange circle darken-4 avatar white-text">
+                                <i class="material-icons">person</i>
+                            </a>
+                            <span class="title">Luck</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reprehenderit? Ex praesentium provident, eaque odio aliquam quia illum et optio omnis magni velit dolorem ut facilis quasi?</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- parallax-1 -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/cake.jpg" alt="cake" class="responsive-img" id="cakes">
+            </div>
+        </div>
+        <!-- card container-1 -->
+        <div class="container">
+            <h3 class="orange-text text-darken-4">Cakes</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et enim harum quam explicabo iure quisquam ad! Vel culpa sint temporibus ratione excepturi repudiandae incidunt, exercitationem reiciendis dolore perspiciatis pariatur earum maxime!</p>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/sponge_cake.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Sponge Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/velvet_cake.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Velvet Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/courgette_cake.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Courgette Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chocolate_2.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Chocolate Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/coffeeslab_cake.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Coffe Slab Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/pistachio_cake.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Pistachio Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/polenta_cake.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Polenta Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/buttermilk_cake.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Buttermilk Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chocolate_1.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Peanut Cake</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- parallax-2 -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/soup.jpg" alt="soup-img" class="responsive-img" id="soups">
+            </div>
+        </div>
+        <!-- card container-2-->
+        <div class="container">
+            <h3 class="orange-text text-darken-4">Soups</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et enim harum quam explicabo iure quisquam ad! Vel culpa sint temporibus ratione excepturi repudiandae incidunt, exercitationem reiciendis dolore perspiciatis pariatur earum maxime!</p>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/lentil_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Lentil Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/olive_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Olive Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/miso_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Miso Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chilli_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Chilli Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/pumpkin_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Pumpkin Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/winter_soup.jpg" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Winter Soup</h5>
+                            <p>Lorem ipsum dolor, sit assumenda consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/tom_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Tom Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/morroco_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Morrocan Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/mexican_soup.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Mexican Soup</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- parallax-3 -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/chicken.jpg" alt="cake" class="responsive-img" id="chic">
+            </div>
+        </div>
+        <!-- cards-3 -->
+        <div class="container">
+            <h3 class="orange-text text-darken-4">Chickens</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et enim harum quam explicabo iure quisquam ad! Vel culpa sint temporibus ratione excepturi repudiandae incidunt, exercitationem reiciendis dolore perspiciatis pariatur earum maxime!</p>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chicken_5.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Oregano Wings</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chicken_11.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Mashed Wings</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chicken_1.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Buttered Wings</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chicken_8.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Yogurt Chicken</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chicken_10.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Chicken Tikka</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chicken_2.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Chicken Couscous</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/chicken_16.jpg" alt="" class=" materialboxed" style="max-height: 412px;">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Chicken Kabab</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/ramen.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Chicken Ramen</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/saag.webp" alt="" class=" materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">Chicken Saag</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, ipsa!</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="" class="text-darken-4">INGREDIENTS</a>
+                            <a href="" class="text-darken-4">STEPS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- Footer -->
+    <!-- <footer class="page-footer">
+        <img src="img/logo.png" alt="" class="responsive-img center-align">
+    </footer> -->
+<!--    Javascript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        $('.sidenav').sidenav();
+        $('.slider').slider({
+            interval: 5000,
+            height: 500,
+        });
+        $('.collapsible').collapsible();
+        $('.parallax').parallax();
+        $('.materialboxed').materialbox();            
+    </script>
+</body>
+</html>
